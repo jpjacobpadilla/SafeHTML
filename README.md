@@ -1,6 +1,6 @@
 ## SafeHTML
 
-A *simple* package for safely rendering HTML using the new [template string syntax (PEP 750)](https://peps.python.org/pep-0750/), in Python `3.14.0b1` and above.
+A *simple* package for safely rendering HTML using the new [template string syntax (PEP 750)](https://peps.python.org/pep-0750/), in Python `3.14`.
 
 ### Example
 
