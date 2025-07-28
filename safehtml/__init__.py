@@ -14,8 +14,9 @@ def _convert(value: object, conversion: Literal['a', 'r', 's'] | None) -> object
 
     return value
 
+
 def html(template: Template) -> str:
-    assert isinstance(template, Template), f"Expected a Template from a t-string, but got {type(template).__name__}."
+    assert isinstance(template, Template), f'Expected a Template from a t-string, but got {type(template).__name__}.'
 
     result = []
     for item in template:
@@ -27,4 +28,4 @@ def html(template: Template) -> str:
             safe_val = escape(str(formatted_val))
             result.append(safe_val)
 
-    return "".join(result)
+    return ''.join(result)
