@@ -1,6 +1,7 @@
 ## SafeHTML
 
-A *simple* package that uses the new template string syntax in (PEP 750) in Python `3.14.0b1` or higher.
+A *simple* package that uses the new template string syntax [PEP 750](https://peps.python.org/pep-0750/)
+ in Python `3.14.0b1` or higher.
 
 ```python
 from safehtml import html
