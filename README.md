@@ -19,7 +19,11 @@ Output:
 ### Install
 
 ```bash
-uv init --python 3.14.0rc1
+uv init
+```
+
+```bash
+uv python pin 3.14.0rc1
 ```
 
 ```bash
